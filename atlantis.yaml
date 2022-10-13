@@ -3,7 +3,7 @@
 projects:
 # HQ | Master Accounts
   - name: n26-sandbox-hq-eu-organization
-    dir: ./terraform/sandbox-hq-eu/master-accounts/n26-sandbox-hq-eu/organizations
+    dir: ./
 #     workflow: tflint_tfsec_plan_opa_apply_envs
     terraform_version: v1.0.11
     apply_requirements: [mergeable]
