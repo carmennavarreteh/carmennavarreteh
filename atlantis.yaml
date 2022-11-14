@@ -1,0 +1,12 @@
+version: 3
+
+projects:
+# HQ | Master Accounts
+  - name: test
+    dir: .
+#     workflow: tflint_tfsec_plan_opa_apply_envs
+    terraform_version: v1.0.11
+    apply_requirements: [mergeable]
+#     autoplan: &autoplan-default
+#       enabled: true
+#       when_modified: ['**/*.tf', '**/*.tfvars', '**/*.tfbackend']
