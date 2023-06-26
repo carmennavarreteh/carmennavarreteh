@@ -1,0 +1,4 @@
+bucket         = "n26-fk26-n26-dev-eu-atlantis-terraform-states"
+dynamodb_table = "n26-fk26-n26-dev-eu-atlantis-terraform-states-lock"
+region         = "eu-central-1"
+key            = "radonium/dev/terraform.tfstate"
