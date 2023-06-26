@@ -1,5 +1,12 @@
 # example resource
-resource "aws_security_group" "radonium" {
-  name        = "gsdd-radonium"
-  description = "Example SG, workspace = ${terraform.workspace}"
+resource "null_resource" "example" {
+  # Specify triggers to re-run this resource when specific conditions change.
+  triggers = {
+    timestamp = timestamp()
+  }
+
+  # Define the provisioner(s) or actions to be performed.
+  provisioner "local-exec" {
+    command = "echo This is a null resource."
+  }
 }
