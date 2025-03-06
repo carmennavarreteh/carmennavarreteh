@@ -3,9 +3,8 @@ version: 3
 
 projects:
   # Disabled directories
-  # First Atlantis in n26-dev-eu
-  - dir: ./atlantis/radonium
-    name: radonium-dev
+  - dir: ./atlantis/test
+    name: test-dev
     workspace: dev
     autoplan:
       enabled: true
