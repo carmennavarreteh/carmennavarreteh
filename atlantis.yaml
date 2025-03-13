@@ -3,17 +3,17 @@ version: 3
 
 projects:
   # Disabled directories
-  - dir: ./atlantis/radonium
+  - dir: ./atlantis/pepe
     name: test-dev
     workspace: dev
     autoplan:
       enabled: true
       when_modified:
         - '**/*.tf*'
-  # - dir: ./atlantis/pepe
-  #   name: pepe-dev
-  #   workspace: dev
-  #   autoplan:
-  #     enabled: true
-  #     when_modified:
-  #       - '**/*.tf*'
+  - dir: ./atlantis/pepe2
+    name: test-dev
+    workspace: dev
+    autoplan:
+      enabled: true
+      when_modified:
+        - '**/*.tf*'
