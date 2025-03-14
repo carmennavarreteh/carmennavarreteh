@@ -2,7 +2,7 @@
 version: 3
 
 projects:
-  # Disabled directories
+
   - dir: ./atlantis/pepe
     name: test-dev
     workspace: dev
