@@ -10,10 +10,10 @@ projects:
       enabled: true
       when_modified:
         - '**/*.tf*'
-  - dir: ./atlantis/pepe2
-    name: test-dev2
-    workspace: dev
-    autoplan:
-      enabled: true
-      when_modified:
-        - '**/*.tf*'
+  # - dir: ./atlantis/pepe2
+  #   name: test-dev2
+  #   workspace: dev
+  #   autoplan:
+  #     enabled: true
+  #     when_modified:
+  #       - '**/*.tf*'
