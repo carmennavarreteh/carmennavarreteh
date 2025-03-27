@@ -1,4 +1,4 @@
 bucket         = "test-terraform-states"
 dynamodb_table = "test-terraform-states-lock"
 region         = "eu-central-1"
-key            = "test/dev/terraform.tfstate"
+key            = "testa/dev/terraform.tfstate"
